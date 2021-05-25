@@ -2,7 +2,8 @@
 
 dmrshark analyses the traffic, and adds extra features to a Hytera IPSC network.
 
-**NOTE: this project is no longer maintained. Please do not ask for support.**
+**NOTE: this project was originally developed by Norbert "Nonoo" Varga, HA2NON [nonoo@nonoo.hu](mailto:nonoo@nonoo.hu)
+
 
 It can be used for:
 
@@ -27,7 +28,6 @@ however, it can be run on a machine which only has a few (or one) repeater's tra
 
 Contact:
 
-- Norbert "Nonoo" Varga, HA2NON [nonoo@nonoo.hu](mailto:nonoo@nonoo.hu)
 - [nonoo.hu](http://nonoo.hu)
 - [ham-dmr.hu](http://ham-dmr.hu)
 
