@@ -2,12 +2,12 @@
 
 dmrshark analyses the traffic, and adds extra features to a Hytera IPSC network.
 
-**NOTE: this project was originally developed by Norbert "Nonoo" Varga, HA2NON [nonoo@nonoo.hu](mailto:nonoo@nonoo.hu)
+** NOTE: this project was originally developed by Norbert "Nonoo" Varga, HA2NON [nonoo@nonoo.hu](mailto:nonoo@nonoo.hu)
 
 
 It can be used for:
 
-- Tracking and decoding voice calls, logging to a text file, and/or inserting them to a remote MySQL-compatible database.
+- Tracking and decoding voice calls, logging to a text file, and/or inserting them to a (remote) MariaDB-compatible database.
 - Saving raw AMBE and decoded voice data to raw or MP3 files.
 - Streaming voice calls as plain HTTP MP3 streams or Websocket MP3 streams.
 - Playing back previously recorded AMBE voice files to repeaters.
@@ -33,15 +33,15 @@ Contact:
 
 ## Compiling
 
-You'll need to have the following libs installed on your system to compile dmrshark:
+You'll need to have the following libs installed on your Debian system to compile dmrshark:
 
-- libglib2.0-dev / glib2-devel
-- libpcap-dev / libpcap-devel
-- libsnmp-dev / net-snmp-devel
-- libmysqlclient-dev / mariadb-devel
-- [libwebsockets](https://libwebsockets.org/)
-- [mbelib](https://github.com/szechyjs/mbelib) (optional)
 - libmp3lame-dev (optional)
+- libglib2.0-dev / glib2-devel
+- libmariadb-dev-compat libmariadb-dev
+- libwebsockets-dev
+- libsnmp-dev
+- libpcap-dev
+- [mbelib](https://github.com/szechyjs/mbelib) (optional)
 
 Instructions on compiling and installing:
 
